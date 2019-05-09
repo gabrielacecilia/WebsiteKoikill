@@ -1,0 +1,140 @@
+/* Mis estilos personalizados para mi pagina web */
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2,h3,h4,h5{
+    font-weight: 800;
+	font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+h6{
+    font-weight: 700;
+	font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
+}
+.bg-negro{
+    background-color: black;
+
+}
+
+@media screen and (max-width: 993px) { 
+
+    #rect { display: none; }
+    .descripcion{
+        display: none;
+    } 
+    #logo{
+        display: none;
+    }
+ 
+     
+}
+
+
+@media screen and (min-width: 993px) { 
+
+    .linea-roja {display: none; }
+    .hidden {display:none}
+}
+
+.italic{
+    font-style: italic;
+
+}
+
+#header{
+    
+    font-size: 40px;
+    height: 38rem;
+    background-size: 100% 100%;
+    background-image: url('../imagenes/Header/bghead.png') ;
+
+}
+
+#sobremi{
+    color: black;
+    min-height: 24rem;
+    background-size: 100% 100%;
+    background-image: url('../imagenes/SobreMi/SobreMi/recrojo.png') ;
+}
+
+
+#iconos{
+    color: black;
+    height: 28rem;
+    background-size: 100% 100%;
+    background-color: black;
+}
+
+.linea-roja{
+    background-color:transparent;
+    background-image: url('../imagenes/Servicios/Rectangulo\ rojo.png');
+    width: 80%;
+    height: 3px;
+}
+
+#servicios{
+    color: black;
+    min-height: 42rem;
+ 
+    background-size: 100% 100%;
+    background-image: url('../imagenes/SobreMi/SobreMi/recrojo.png') ;
+}
+
+#servicios-contenedores{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+#portafolio{
+    background-color: black;
+    height: 100%;
+    min-width: 100%;
+}
+
+.proyecto{
+    height: 25rem;
+}
+
+.panel{
+
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url('../imagenes/Portafolio/Cuadro\ gris.png') ;
+}
+
+#consecuencia{
+    background-size: 100% 100%;
+    background-image: url('../imagenes/Portafolio/Consecuencia.png') ;
+}
+
+#flow{
+    background-size: 100% 100%;
+    background-image: url('../imagenes/Portafolio/Flow.png') ;
+}
+
+#bimi{
+    background-size: 100% 100%;
+    background-image: url('../imagenes/Portafolio/Bimi.png') ;
+}
+
+#formulario{
+    height: 38rem;
+}
+
+
+#footer{
+    background-size: 100% 100%;
+    background-image: url('../imagenes/SobreMi/SobreMi/recrojo.png') ;
+}
+
+.red{
+    color: white;
+    background-size: 100% 100%;
+    background-image: url('../imagenes/SobreMi/SobreMi/recrojo.png') ;
+}
+
